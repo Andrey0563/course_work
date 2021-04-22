@@ -13,3 +13,4 @@ D:\0 Cursach\BDinterface\BDinterface\bin\Debug\Db_LecturersDataSet.Designer.cs
 D:\0 Cursach\BDinterface\BDinterface\bin\Debug\Db_LecturersDataSet.xsc
 D:\0 Cursach\BDinterface\BDinterface\bin\Debug\Db_LecturersDataSet.xsd
 D:\0 Cursach\BDinterface\BDinterface\bin\Debug\Db_LecturersDataSet.xss
+D:\0 Cursach\BDinterface\BDinterface\obj\Debug\BDinterface.Form2.resources

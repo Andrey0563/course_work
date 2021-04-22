@@ -14,7 +14,7 @@ namespace BDinterface
     
     public partial class Form1 : Form
     {
-        public static string connectString = "Provider = Microsoft.Jet.OLEDB.4.0; Data Source = D:\\0 Cursach\\BDinterface\\BDinterface\\Db Lecturers.mdb";
+        public static string connectString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\\0 Cursach\\BDinterface\\BDinterface\\Db Lecturers.mdb";
         private OleDbConnection myConnection;
         public Form1()
         {
@@ -58,7 +58,7 @@ namespace BDinterface
 
            
             int code = Convert.ToInt32(textBox2.Text);
-            string query = "UPDATE Преподаватели SET Вчене звання викладача = '" + textBox3.Text + "' WHERE [Код] = " + code;
+            string query = "UPDATE Преподаватели SET Вчене звання викладача = '" + textBox3.Text + "' WHERE [Код] =" + code;
             OleDbCommand command = new OleDbCommand(query, myConnection);
             command.ExecuteNonQuery();
             MessageBox.Show("Дані про викладача змінено");
@@ -66,12 +66,27 @@ namespace BDinterface
             
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form2 f2 = new Form2();
+            f2.Owner = this;
+            f2.Show();
+
+        }
+
+
+
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             myConnection.Close();
 
         }
 
+        private void button2_Click_1(object sender, EventArgs e)
+        {
 
+            this.преподавателиTableAdapter.Fill(this.db_LecturersDataSet.Преподаватели);
+
+        }
     }
 }
