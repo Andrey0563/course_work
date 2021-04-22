@@ -1,0 +1,15 @@
+D:\0 Cursach\BDinterface\BDinterface\bin\Debug\BDinterface.exe.config
+D:\0 Cursach\BDinterface\BDinterface\bin\Debug\BDinterface.exe
+D:\0 Cursach\BDinterface\BDinterface\bin\Debug\BDinterface.pdb
+D:\0 Cursach\BDinterface\BDinterface\obj\Debug\BDinterface.csprojAssemblyReference.cache
+D:\0 Cursach\BDinterface\BDinterface\obj\Debug\BDinterface.Form1.resources
+D:\0 Cursach\BDinterface\BDinterface\obj\Debug\BDinterface.Properties.Resources.resources
+D:\0 Cursach\BDinterface\BDinterface\obj\Debug\BDinterface.csproj.GenerateResource.cache
+D:\0 Cursach\BDinterface\BDinterface\obj\Debug\BDinterface.csproj.CoreCompileInputs.cache
+D:\0 Cursach\BDinterface\BDinterface\obj\Debug\BDinterface.exe
+D:\0 Cursach\BDinterface\BDinterface\obj\Debug\BDinterface.pdb
+D:\0 Cursach\BDinterface\BDinterface\bin\Debug\Db Lecturers.mdb
+D:\0 Cursach\BDinterface\BDinterface\bin\Debug\Db_LecturersDataSet.Designer.cs
+D:\0 Cursach\BDinterface\BDinterface\bin\Debug\Db_LecturersDataSet.xsc
+D:\0 Cursach\BDinterface\BDinterface\bin\Debug\Db_LecturersDataSet.xsd
+D:\0 Cursach\BDinterface\BDinterface\bin\Debug\Db_LecturersDataSet.xss
